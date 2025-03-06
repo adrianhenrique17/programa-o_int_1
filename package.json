@@ -15,7 +15,12 @@
     "v8-compile-cache-lib": "^3.0.1",
     "yn": "^3.1.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "type": "module",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "node index.js"
@@ -25,3 +30,5 @@
   "license": "ISC",
   "description": ""
 }
+
+
